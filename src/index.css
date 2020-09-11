@@ -43,7 +43,7 @@ a {
   box-shadow: -1rem 0 3rem #000;
   display: flex;
   flex-direction: column;
-  transition: 0.2s;
+  transition: 0.3s;
   margin: 0;
   scroll-snap-align: start;
   clear: both;
@@ -134,7 +134,7 @@ a {
   width: 60px;
   height: 48px;
   fill: none;
-  stroke: #ff8a00;
+  stroke: teal;
   stroke-width: 8;
   stroke-linecap: round;
   pointer-events: none;

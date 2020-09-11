@@ -3,7 +3,7 @@ export const cards: Card[] = [
   {
     header: 'Javascript',
     subheader: 'The language of the web',
-    avatar: 'javascript-logo.png',
+    avatar: 'avatar.png',
     title: 'Developer',
     name: 'Liam Neville',
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
@@ -11,7 +11,7 @@ export const cards: Card[] = [
   {
     header: 'Rust',
     subheader: 'Safe, fast and friendly systems language',
-    avatar: 'rust-icon.svg',
+    avatar: 'avatar.png',
     title: 'Developer',
     name: 'Liam Neville',
     tags: ['Systems', 'Mozilla', 'Rust'],

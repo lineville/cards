@@ -17,7 +17,12 @@ const CardList = (props: { cards: Array<Card> }) => {
             </header>
 
             <div className="card-author">
-              <a className="author-avatar" href="#">
+              <a
+                className="author-avatar"
+                href="https://liamneville.me"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={avatar} alt="avatar" />
               </a>
               <svg className="half-circle" viewBox="0 0 106 57">
@@ -31,7 +36,13 @@ const CardList = (props: { cards: Array<Card> }) => {
             </div>
             <div className="tags">
               {tags?.map((tag) => (
-                <a href="#">{tag}</a>
+                <a
+                  href="https://liamneville.me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {tag}
+                </a>
               ))}
             </div>
           </article>
