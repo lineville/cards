@@ -10,7 +10,7 @@ const CardList = (props: { cards: Array<Card> }) => {
         const { header, subheader, avatar, title, name, tags } = card
 
         return (
-          <article className="card">
+          <article className="card" key={header}>
             <header className="card-header">
               <h2>{header}</h2>
               <p>{subheader}</p>
