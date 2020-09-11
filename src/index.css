@@ -40,7 +40,7 @@ a {
   padding: 1.5rem;
   border-radius: 16px;
   background: #17141d;
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1.5rem 0 3rem #000;
   display: flex;
   flex-direction: column;
   transition: 0.3s;
@@ -134,7 +134,7 @@ a {
   width: 60px;
   height: 48px;
   fill: none;
-  stroke: teal;
+  stroke: #06c7d1;
   stroke-width: 8;
   stroke-linecap: round;
   pointer-events: none;
